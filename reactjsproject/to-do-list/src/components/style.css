@@ -1,0 +1,8 @@
+.checked-item {
+  text-decoration: line-through;
+}
+.table {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* <label className={isChecked ? "checked" : "not-checked"}> */

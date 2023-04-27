@@ -1,0 +1,100 @@
+
+.photos{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.nav{
+    height: 40px;
+    background-color: rgb(248, 246, 244);
+    
+    padding-left: 120px;
+    
+    padding-bottom: 20px;
+    box-shadow: 10px 10px 10px 0px grey;
+   
+}
+.navleft{
+    padding-top: 20px;
+    float: left;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.navright{
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.spanspace{
+    margin-left: 10px;
+    font-weight: bold;
+}
+.outer{
+   background-color: rgb(246, 248, 248);
+   
+    
+}
+ul{
+    text-decoration: none;
+    display: flex;
+}
+li{
+    list-style: none;
+    margin-left: 50px;
+}
+.text{
+    text-align: center;
+   
+}
+label{
+    font-family: fantasy;
+}
+.pic1{
+    background-color: rgb(255, 246, 246);
+    box-shadow: 10px 10px 10px 0px grey;
+    
+}
+.pic2{
+    background-color: rgb(255, 246, 246);
+    margin-left: 40px;
+    box-shadow: 10px 10px 10px 0px grey;
+}
+.pic3{
+    background-color: rgb(255, 246, 246);
+    margin-left: 40px;
+    box-shadow: 10px 10px 10px 0px grey;
+}
+.pic4{
+    background-color:rgb(255, 246, 246);
+    margin-left: 40px;
+    box-shadow: 10px 10px 10px 0px grey;
+    
+}
+body{
+    background-color:rgb(171, 185, 185);
+}
+.writings{
+    padding-left: 10px;
+}
+.insideteams{
+    color: rgb(9, 9, 9);
+    
+    width: 60px;
+    font-size: small;
+    font-weight: bolder;
+    padding: 5px;
+    text-align: center;
+    opacity: 0.4;
+    border-radius: 20px;
+    background-color:  rgb(136, 194, 194);
+ 
+}
+.teams{
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+   
+}
+.blueteam{
+  color: rgb(26, 151, 151);
+}

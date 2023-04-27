@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <script src = "./form.js"></script>
+</head>
+<body>
+    <form name = "myForms">
+        <div id="div1">
+            <label>Name :</label>
+            <input type = "text" id="firstName" name="firstName">
+            <span id="spanmsg1"></span><br>
+            <label>Age :</label>
+            <input type = "number" id="age" name="age">
+            <span id="spanmsg2"></span><br>
+            <!-- <input type = "password" id="passwrd" name="passwrd">
+            <span id="spanmsg3"></span><br> -->
+            <label>Hobbies</label>
+            <input type = "checkbox" id = "drawing" class="hob">Drawing
+            <input type = "checkbox" id = "playing" class="hob">playing
+            <span id="spanmsg3"></span>
+            <br>
+            <label>Gender</label>
+            <input type="radio" id = "male" name = "gender" value="male">Male
+            <input type="radio" id = "female" name = "gender" value="female">Female
+            <span id="spanmsg4"></span>
+            <br>
+            <button type="button" onclick="getFormData()">Submit</button>
+    </form>
+    </div>
+</body>
+
+</html>

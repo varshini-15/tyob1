@@ -1,0 +1,90 @@
+
+.nav-item{
+    padding-right: 10px; 
+}
+
+
+.bg-image{
+    background: url(build.jpeg) no-repeat;
+   
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+  
+    padding: 200px 120px 200px;
+  }
+  .space{
+    padding-left: 10px;
+    margin-right: 20px;
+  }
+ .topnav{
+    color: white;
+ }
+ .text1{
+   line-height: 20px;
+    text-align: center;
+ }
+  i.fa {
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0 0 2px #888;
+  padding: 0.5em 0.6em;
+
+}
+.space-btwn-cards{
+  padding-left: 10px;
+}
+.ali{
+  text-align: center;
+}
+.icon-ali{
+  margin-left: 120px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: #0f72b8;
+  /* padding-top: 10px; */
+}
+.space-btwn-cards{
+  padding-right: 10px;
+}
+.circle-icon{
+  height: 70%;
+  width: 70%;
+  /* padding-left: 10px;
+  margin-top: 20px;
+  margin-left: 50px; */
+  background-color: #f8faf8;
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px 0px rgb(200, 198, 198);
+}
+.space-btwn-pic{
+padding-right: 10px;
+padding-left: 10px;
+}
+.card-noborder{
+  border: none;
+}
+.pad{
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+.form-ali{
+  line-height: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.form-input-pad{
+  padding-bottom: 8px;
+}
+.map-container{
+  overflow:hidden;
+  padding-bottom:100%;
+  position:relative;
+  /* height:0; */
+}
+.map-container iframe{
+ 
+  height:50%;
+  width:100%;
+  position:absolute;
+}
